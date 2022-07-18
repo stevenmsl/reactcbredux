@@ -1,0 +1,17 @@
+- create slice 
+  - define the piece of the state you want to manage #TA01
+  - define the reducer to update the state #TA02
+  - export the actions and reducer #TA03
+
+- confgiure the store
+  - list all the reducers that will be used by the redux store #TA04 
+  - define the root state #TA08
+
+- wrap the entire app in a redux provider #TA07  
+
+- update the state from within component
+  - use useDispatch hook and the actions exported from the slice
+    to update the state #TA05
+
+- consume the state from within component #TA06
+  - use the useSelector hook to retrieve the piece of the state you need
